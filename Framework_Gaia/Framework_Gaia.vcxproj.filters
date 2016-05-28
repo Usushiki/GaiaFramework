@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framerowk">
+      <UniqueIdentifier>{225ecd97-edb3-43f0-b8a5-29ae0605867f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Property">
+      <UniqueIdentifier>{7af7e62f-297b-4c1b-a22d-ed1287a90d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System">
+      <UniqueIdentifier>{597f3c9e-18cc-4adb-a627-6d49180d6c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\Window">
+      <UniqueIdentifier>{f2d7e287-fef2-4cd4-b467-d8a8b07e936b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\Direct3D">
+      <UniqueIdentifier>{88f9057e-97f8-4b6b-b031-405d2868a53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\GameBase">
+      <UniqueIdentifier>{7f548880-043d-4862-bb51-522d214ed640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\FrameRateController">
+      <UniqueIdentifier>{b3d7357a-822d-4b64-84be-47d8711a6dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\Utility">
+      <UniqueIdentifier>{c1e8b8d2-226d-42bd-8362-ce13b0ac5636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\Input">
+      <UniqueIdentifier>{09afe8bb-d19e-4896-b570-7348eda1d590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\Input\KeyBoard">
+      <UniqueIdentifier>{4dadc340-a194-4d1d-8ed2-7b4856d16c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\Input\Mouse">
+      <UniqueIdentifier>{be66bee4-f020-480b-a788-17acd9abec61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\Input\GamePad">
+      <UniqueIdentifier>{2adaf5aa-cad2-4a52-b3ee-5656728b670f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framerowk\System\Debug">
+      <UniqueIdentifier>{4e63a10f-a64b-49c9-aa44-56d0efdf1f87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Framework\System\Window\Window.cpp">
+      <Filter>Framerowk\System\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\Direct3D\Direct3D.cpp">
+      <Filter>Framerowk\System\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\GameBase\GameBase.cpp">
+      <Filter>Framerowk\System\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\FrameRateController\FrameRateController.cpp">
+      <Filter>Framerowk\System\FrameRateController</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\Timer.cpp">
+      <Filter>Framerowk\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\Input\Keyboard.cpp">
+      <Filter>Framerowk\System\Input\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\Input\GamePad.cpp">
+      <Filter>Framerowk\System\Input\GamePad</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\Input\Mouse.cpp">
+      <Filter>Framerowk\System\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\Input\InputManager.cpp">
+      <Filter>Framerowk\System\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Property\Debug_Propertys.props">
+      <Filter>Property</Filter>
+    </None>
+    <None Include="Property\Release_Propertys.props">
+      <Filter>Property</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\System\Window\Window.hpp">
+      <Filter>Framerowk\System\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Direct3D\Direct3D.hpp">
+      <Filter>Framerowk\System\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\GameBase\GameBase.hpp">
+      <Filter>Framerowk\System\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Window\ScreenMode.hpp">
+      <Filter>Framerowk\System\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\FrameRateController\FrameRateController.hpp">
+      <Filter>Framerowk\System\FrameRateController</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\Timer.hpp">
+      <Filter>Framerowk\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\Singleton.hpp">
+      <Filter>Framerowk\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\CopyForbidObject.hpp">
+      <Filter>Framerowk\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Input\Keyboard.hpp">
+      <Filter>Framerowk\System\Input\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Input\GamePad.hpp">
+      <Filter>Framerowk\System\Input\GamePad</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Input\Mouse.hpp">
+      <Filter>Framerowk\System\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Input\InputManager.hpp">
+      <Filter>Framerowk\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Debug\DebugLog.hpp">
+      <Filter>Framerowk\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\Debug\DebugDefine.hpp">
+      <Filter>Framerowk\System\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
